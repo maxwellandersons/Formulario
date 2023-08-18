@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 368px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #535971;
+  display: block;
+  z-index: -1;
+}
+
+h1,
+p {
+  color: #ffffff;
+}
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+}
+legend {
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+  font-size: 24px;
+  color: #535971;
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+}
+
+label {
+  font-size: 14px;
+  color: #4e4958;
+}
+
+span {
+  color: #c1bccc;
+}
+
+h1,
+legend,
+button {
+  font-family: "Staatliches", cursive;
+}
+form {
+  padding: 64px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #ffffff;
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.nome {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+h2 {
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 20px;
+
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.inputname {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+body {
+  background-color: #efefef;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-top: 20px;
+  padding-bottom: 40px;
+  width: 750px;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #e6e6f0);
+  background: var(--shapes-02, #fafafc);
+  height: 56px;
+}
+fieldset {
+  border: none;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+}
+
+.datamargin {
+  margin-right: 32px;
+}
+
+form fieldset:nth-of-type(1) .espaco + .espaco {
+  margin-top: 16px;
+}
+
+.button {
+  margin-bottom: 40px;
+  width: 750px;
+  height: 160px;
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+}
+button {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+
+  display: flex;
+  width: 608px;
+  height: 55px;
+  padding: 15px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #ff5374;
+  margin: 52px 71px;
+  border: none;
+}
+
+button:hover {
+  background-color: #9b223a;
+}
